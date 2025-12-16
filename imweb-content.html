@@ -1,4 +1,15 @@
 <!-- MBC Interactive Page for Imweb -->
+<!-- Override Imweb default layout -->
+<style>
+  /* Force full width, override Imweb container styles */
+  .mbc-logo, .day-container, .screen-container, .footer {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: calc(-50vw + 50%) !important;
+  }
+</style>
+
 <!-- External Libraries -->
 <link href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
